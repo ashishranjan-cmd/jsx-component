@@ -1,3 +1,16 @@
 .myheader {
     color: red;
 }
+
+.mypost {
+    color : blue;
+    background-color: beige;
+    border: 2px groove blue;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.img {
+    width: 200px;
+    border-radius: 50%;
+}

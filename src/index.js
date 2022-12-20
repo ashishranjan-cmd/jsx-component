@@ -13,7 +13,9 @@ const root = ReactDOM.createRoot(document.getElementById("root")) // createRoot(
 // )
 
 root.render(
-  <div> 
-    <Func1></Func1>
-  </div> // use div tag for multiple tag render
+  <div>
+  <Func1 />
+  <Func1 />
+
+  </div>
 )
