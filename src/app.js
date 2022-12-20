@@ -1,6 +1,6 @@
-function Func1(myvar){
+function Func1(props){
 
-  console.log(myvar)
+  // console.log(myvar)
 
 
   return (
@@ -8,9 +8,9 @@ function Func1(myvar){
     <h1 className='myheader'>Welcome to Portfolio Webpage</h1>
     <div>First Post :- </div>
     <img className="img" src="https://i.pinimg.com/736x/24/fb/a8/24fba8681acf5793630c1bca9dd65f2e.jpg" />
-    <p>Name : Tom & Jerry</p>
-    <p>Email Address : tom.jerry@email.com</p>
-    <p>No. of likes : {myvar.x}</p>
+    <p>Name : {props.fname}</p>
+    <p>Email Address : {props.email}</p>
+    <p>No. of likes : {props.pagelikes}</p>
   </div>); 
 }
 
