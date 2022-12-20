@@ -15,5 +15,7 @@ function Func1(){
 }
 
 root.render(
-  <Func1></Func1> // calling function as tag
+  <div> 
+    <Func1></Func1>
+  </div> // use div tag for multiple tag render
 )
