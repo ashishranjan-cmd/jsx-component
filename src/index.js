@@ -1,5 +1,9 @@
 import React from "react";
 import ReactDOM  from "react-dom/client";
+
+import  "./index.css";
+import { Func1 } from "./app.js";
+
 const root = ReactDOM.createRoot(document.getElementById("root")) // createRoot() function
 
 // this is render function without the createroot function.
@@ -7,12 +11,6 @@ const root = ReactDOM.createRoot(document.getElementById("root")) // createRoot(
 //  <h1>Welcome to my webapp</h1>,
 //  document.getElementById("root")
 // )
-
-import  "./index.css";
-
-function Func1(){
-  return <h1 className='myheader'>Welcome to my webapp</h1>; 
-}
 
 root.render(
   <div> 
