@@ -2,7 +2,7 @@ function Func1(myvar){
 
   console.log(myvar)
 
-  
+
   return (
   <div className="mypost">
     <h1 className='myheader'>Welcome to Portfolio Webpage</h1>
@@ -10,7 +10,7 @@ function Func1(myvar){
     <img className="img" src="https://i.pinimg.com/736x/24/fb/a8/24fba8681acf5793630c1bca9dd65f2e.jpg" />
     <p>Name : Tom & Jerry</p>
     <p>Email Address : tom.jerry@email.com</p>
-    <p>Number of likes in my post is : 200k</p>
+    <p>No. of likes : {myvar.x}</p>
   </div>); 
 }
 

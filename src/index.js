@@ -12,10 +12,10 @@ const root = ReactDOM.createRoot(document.getElementById("root")) // createRoot(
 //  document.getElementById("root")
 // )
 
+
+// React Component Props
 root.render(
   <div>
-  <Func1 />
-  <Func1 />
-
+  <Func1 mynm="Jerry" x="200k" />
   </div>
 )
