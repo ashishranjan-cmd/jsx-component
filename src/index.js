@@ -16,6 +16,8 @@ const root = ReactDOM.createRoot(document.getElementById("root")) // createRoot(
 // React Component Props
 root.render(
   <div>
-  <Func1 fname="Jerry" pagelikes="200k" email="tom.jerry@email.com" />
+  <Func1 fname="Jerry" pagelikes="200k" email="jerry@email.com" />
+  <Func1 fname="Tom" pagelikes="100k" email="tom@email.com" />
+
   </div>
 )
