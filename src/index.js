@@ -8,6 +8,8 @@ const root = ReactDOM.createRoot(document.getElementById("root")) // createRoot(
 //  document.getElementById("root")
 // )
 
+import './index.css';
+
 root.render(
-  <h1>Welcome to my webapp</h1>
+  <h1 className="myheader">Welcome to my webapp</h1>
 )
