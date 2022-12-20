@@ -8,8 +8,12 @@ const root = ReactDOM.createRoot(document.getElementById("root")) // createRoot(
 //  document.getElementById("root")
 // )
 
-import './index.css';
+import  "./index.css";
+
+function Func1(){
+  return "<h1 className='myheader'>Welcome to my webapp</h1>"; 
+}
 
 root.render(
-  <h1 className="myheader">Welcome to my webapp</h1>
+  <Func1></Func1> // calling function as tag
 )
